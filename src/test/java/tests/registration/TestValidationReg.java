@@ -22,6 +22,7 @@ public class TestValidationReg extends TestInit {
 
         for (WebElement element : registerPage.checkText()) {
             Assert.assertTrue(element.getText().toLowerCase(Locale.ROOT).contains("Неверный адрес электронной почты"));
+
         }
     }
 }
